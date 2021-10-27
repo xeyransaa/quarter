@@ -1,0 +1,355 @@
+#header .top-header {
+  background-color: #0B2C3D;
+}
+
+#header .top-header .left i {
+  color: #FF5A3C;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+#header .top-header .left a {
+  text-decoration: none;
+  color: white;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+#header .top-header .left a:hover {
+  color: #FF5A3C;
+}
+
+#header .top-header .left .mail {
+  margin-right: 20px;
+}
+
+#header .top-header .right .icons {
+  margin-right: 30px;
+}
+
+#header .top-header .right .icons i {
+  color: white;
+  margin-right: 10px;
+}
+
+#header .top-header .right .add {
+  text-decoration: none;
+  color: white;
+  padding: 15px 20px;
+  background-color: #FF5A3C;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#header .top-header .right .add:hover {
+  background-color: #e04125;
+}
+
+#header .bottom-header .menu ul li a {
+  text-decoration: none;
+  padding: 20px;
+  display: block;
+  color: black;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  font-weight: 600;
+}
+
+#header .bottom-header .menu ul li a:hover {
+  color: #FF5A3C;
+}
+
+#header .bottom-header .buttons a {
+  color: black;
+  padding: 20px;
+  -webkit-box-shadow: 0 0 50px rgba(255, 255, 255, 0.363);
+          box-shadow: 0 0 50px rgba(255, 255, 255, 0.363);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#header .bottom-header .buttons a:hover {
+  background-color: #FF5A3C;
+}
+
+.find {
+  background-color: #F2F6F7;
+  padding-top: 100px;
+}
+
+.find .left {
+  padding-bottom: 100px;
+}
+
+.find .left .icon i {
+  color: #FF5A3C;
+  margin-right: 10px;
+}
+
+.find .left .icon span {
+  color: black;
+  font-weight: 600;
+}
+
+.find .left h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.find .left p {
+  border-left: 1px solid black;
+  padding-left: 30px;
+  margin-bottom: 70px;
+}
+
+.find .left .inquiry {
+  text-decoration: none;
+  color: white;
+  padding: 15px 35px;
+  background-color: #FF5A3C;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  position: relative;
+  margin-right: 15px;
+  font-size: 18px;
+}
+
+.find .left .inquiry span {
+  position: relative;
+  z-index: 1;
+}
+
+.find .left .inquiry::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: white;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.find .left .inquiry:hover {
+  color: black;
+}
+
+.find .left .inquiry:hover::after {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.find .left .play {
+  text-decoration: none;
+  color: #FF5A3C;
+  background-color: white;
+  font-size: 18px;
+  padding: 15px 20px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.find .right img {
+  margin-bottom: -100px;
+  z-index: -1;
+}
+
+.search {
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-top: -65px;
+  z-index: 1000;
+  padding: 40px;
+}
+
+.search .selection {
+  width: 70%;
+}
+
+.search .selection select {
+  width: 30%;
+  padding: 18px;
+  font-weight: 600;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.178);
+}
+
+.search .button .inquiry {
+  text-decoration: none;
+  color: white;
+  padding: 18px 35px;
+  background-color: #FF5A3C;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  position: relative;
+  margin-right: 15px;
+  font-size: 18px;
+}
+
+.search .button .inquiry span {
+  position: relative;
+  z-index: 1;
+}
+
+.search .button .inquiry::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: white;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.search .button .inquiry:hover {
+  color: black;
+}
+
+.search .button .inquiry:hover::after {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.about {
+  padding-top: 100px;
+}
+
+.about .left .img {
+  position: relative;
+}
+
+.about .left .img .img-over {
+  position: absolute;
+  left: 0%;
+  bottom: 70px;
+}
+
+.about .left .img .img-over .icon {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.about .left .img .img-over .icon i {
+  text-align: center;
+  font-size: 20px;
+  padding: 25px 30px;
+  background-color: white;
+  color: #FF5A3C;
+  border-radius: 50%;
+  -webkit-animation: myAni 1s infinite;
+          animation: myAni 1s infinite;
+}
+
+@-webkit-keyframes myAni {
+  from {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  to {
+    -webkit-box-shadow: 0 0 80px rgba(255, 255, 255, 0.904);
+            box-shadow: 0 0 80px rgba(255, 255, 255, 0.904);
+  }
+}
+
+@keyframes myAni {
+  from {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  to {
+    -webkit-box-shadow: 0 0 80px rgba(255, 255, 255, 0.904);
+            box-shadow: 0 0 80px rgba(255, 255, 255, 0.904);
+  }
+}
+
+.about .right .head {
+  color: #FF5A3C;
+  background-color: #FFEFEC;
+  padding: 5px 20px;
+  border-radius: 30px;
+  font-weight: 900;
+}
+
+.about .right h1 {
+  font-size: 50px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.about .right h1 span {
+  color: #FF5A3C;
+}
+
+.about .right .text {
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.about .right .features {
+  margin-bottom: 15px;
+}
+
+.about .right .features i {
+  color: #FF5A3C;
+  padding: 15px;
+  background-color: #FFEFEC;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.about .right .quote {
+  padding: 20px;
+  padding-right: 100px;
+  border-left: 4px solid #FF5A3C;
+  background-color: #FFEFEC;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+
+.about .right .inquiry {
+  text-decoration: none;
+  color: white;
+  padding: 18px 35px;
+  background-color: #FF5A3C;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  position: relative;
+  margin-right: 15px;
+  font-size: 18px;
+}
+
+.about .right .inquiry span {
+  position: relative;
+  z-index: 1;
+}
+
+.about .right .inquiry::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: white;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.about .right .inquiry:hover {
+  color: black;
+}
+
+.about .right .inquiry:hover::after {
+  width: 100%;
+  border: 1px solid black;
+}
+/*# sourceMappingURL=style.css.map */
